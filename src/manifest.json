@@ -1,0 +1,17 @@
+{
+  "name": "ReactWebpack",
+  "short_name": "ReactWebpack",
+  "description": "A simple webapp example which uses React + Webpack + Babel + Sass + FontAwesome!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#001E38",
+  "background_color": "#001E38",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

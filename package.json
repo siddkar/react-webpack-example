@@ -1,0 +1,50 @@
+{
+  "name": "react-webpack-example",
+  "description": "A simple webapp example which uses React + Webpack + Babel + Sass + FontAwesome!",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Caio Ribeiro Pereira <caio.ribeiro.pereira@gmail.com>",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --config webpack.dev.js",
+    "build": "NODE_ENV=production webpack -p --config webpack.prod.js"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.11",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0",
+    "file-loader": "1.1.11",
+    "html-loader": "0.5.5",
+    "node-sass": "4.9.0",
+    "sass-loader": "7.0.1",
+    "style-loader": "0.21.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "0.1.19",
+    "compression-webpack-plugin": "1.1.11",
+    "copy-webpack-plugin": "4.5.1",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.4.0",
+    "optimize-css-assets-webpack-plugin": "4.0.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-router-dom": "4.2.2",
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3",
+    "webpack-dev-server": "3.1.4",
+    "webpack-merge": "4.1.2",
+    "uglifyjs-webpack-plugin": "1.2.5"
+  }
+}
